@@ -1,0 +1,70 @@
+body *{
+    outline: 1px dotted pink;
+}
+
+#container{
+    width: 980px;
+    min-height: 600px;
+    margin: 0px auto;
+    background-color: rgb(226, 233, 204);
+}
+
+#container .header{
+    min-height: 100px;
+    background-color: red;
+}
+
+#container .header ul{
+    display: inline-block;
+    
+}
+
+#container .header ul li{
+    display: inline-block;
+    font-size: 28px;
+    padding: 10px;
+}
+
+#container .header .image{
+    width: 350px;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+#container h1{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+#container .layer{
+    min-height: 400px;
+    background-color:green;
+}
+
+#container .box{
+    display: inline-block;
+    vertical-align: top;
+    width: 294px;
+    background-color:pink;
+    min-height: 300px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#container .box a{
+    display: block;
+    background-color:rgb(247, 96, 41);
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 40px;
+    color: white;
+}
+
+#container .box a:hover{
+    background-color:rgb(155, 151, 150);
+}

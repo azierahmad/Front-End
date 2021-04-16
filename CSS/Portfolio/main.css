@@ -1,0 +1,103 @@
+*{
+    /* outline: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    background-color: rgb(139, 94, 94);
+    width: 1080px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    height: 50px;
+    padding:15px;
+    background-color: rgb(209, 208, 208);
+    align-items:center;
+    justify-content:space-between;
+    font-family: Arial;
+}
+
+.section{
+    display: flex;
+    padding: 15px;
+    vertical-align: top;
+    justify-content:space-around;
+}
+.section img{
+    width: 500px;
+    border: rgb(173, 173, 173) 8px solid;
+}
+.section .about{
+    width: 500px;
+    background-color: rgb(228, 227, 227);
+}
+.section .about h2{
+    background-color:rgb(102, 104, 105);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+.section .about p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+
+.layer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.layer .box{
+    width:290px;
+    height: 560px;
+    margin:15px;
+    background-color: azure;
+}
+.layer .box img{
+    width:290px;
+}
+.layer .box .tech-images img{
+    width:30px;
+}
+.layer .box h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(202, 209, 209);
+    padding: 10px;
+}
+.layer .box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.layer .box button{
+    position: relative;
+    background-color: green;
+	color:white;
+	border:solid 1px black;
+	border-radius: 10px;
+	padding:5px;
+	margin: 10px 70px;
+	font-weight: 900;
+    width:150px;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(230, 230, 230);    
+}
+.footer .social{
+    display: flex;
+    width: 362px;
+    padding: 10px;
+    margin: auto;
+}
+.footer .social img{
+    width:15px;
+    margin:auto;
+}
+.footer .social a{
+    color: black;
+    text-decoration: none;
+}
